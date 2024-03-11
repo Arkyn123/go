@@ -1,0 +1,13 @@
+port: 8080
+
+db:
+  username: postgres
+  password: root
+  host: localhost
+  port: 5432
+  dbname: go_base
+  sslmode: disable
+
+auth_url: http://10.9.54.46:3000/login
+test: https://jsonplaceholder.typicode.com/posts
+testing: http://127.0.0.1:3001/hazard-type
